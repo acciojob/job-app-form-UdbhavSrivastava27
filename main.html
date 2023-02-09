@@ -8,31 +8,49 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
-  <label for="portfolio">Portfolio</label>
-  <input type="url" name = "portfolio" id="portfolio">
-  <label for="name">Name</label>
-  <input type="text" required id="name" >
-  <label for="email">Email</label>
-  <input type="email" required id="email">
-  <label for="gender">Gender</label>
-  <input type="radio" required id="gender" name="gender" >Male
-  <input type="radio" required id="gender" name="gender">Female
-  <label for="laptop">Laptop Brands</label>
-  <select id="laptop">
-    <option value="apple">Apple</option>
-    <option value="asus">Asus</option>
-    <option value="hp">HP</option>
-  </select>
-  <label for="age">age</label>
-  <input type="number" required id="age">
-  <label for="dob">DOB</label>
-  <input type="date" required id="dob">
-  <label for="password">Password</label>
-  <input type="password" required id="password">
-  <label for="submit">submit</label>
-  < button type="submit">Submit</button>
-</form>
+	<form action="yourmail@gmail.com" method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required> 
+		<br>
+	
+		<label for="email">Email</label>
+		 <input type="email" id="email" required> 
+		<br>
+	
+		<label for="gender">Gender</label>
+		<input type="radio" id="gender" name="gender" required> Male
+		<input type="radio" id="gender" name="gender" required> Female
+		<br>
+	
+		<label for="laptop">Laptop Brands</label>
+		
+			<select id="laptop" required>
+				<option name="laptop">Apple</option>
+				<option name="laptop">Asus</option>
+				<option name="laptop">HP</option>
+			</select>
+			
+		
+	
+		<label for="age">Age</label>
+		<input type="text" id="age" required> 
+		<br>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob" required> 
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password" required> 
+	<br>
+	<label for="portfolio">Portfolio Link</label>
+	<input type="url" id="portfolio">
+	
+		<button type="submit"> Submit</button>
+	
+	
+	
+	
+	
+	</form>
 
     <script type="text/javascript" src="./script.js">
 </script>
